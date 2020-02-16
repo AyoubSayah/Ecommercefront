@@ -1,0 +1,73 @@
+.product{
+    background: #fff;
+    padding: 20px;
+    height: 300px;
+    margin: 20px;
+    
+}
+.footer{
+    bottom: 0;
+    position: absolute;
+}
+.prix{
+    color : green
+}
+button{
+    float: right;
+}
+.list{
+    background : #e4e4e4;
+}
+h4{
+    color :#c3002f
+}
+.cla{
+    margin-top:1px ;
+}
+h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: auto;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: -3px;
+    
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    margin-left: -140px;
+    margin-bottom: -15px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 30px;
+    align-content: center;
+    margin-right: 50px;
+}
+b, strong {
+    font-weight: bolder;
+    margin-left: -18px;
+}
+.h2, h2 {
+    font-size: 2rem;
+    
+    margin-bottom: 10px;
+}
+
+
+    .list[_ngcontent-bgc-c2] {
+        background: white;
+    }
+    .list[_ngcontent-lmv-c2] {
+        background: #e4e4e4;
+        
+    }
+    .m{
+        margin-left : 50px ;
+    }
+    .l{
+        background-color: #343a40;
+        padding-left:100px;
+    }
+    

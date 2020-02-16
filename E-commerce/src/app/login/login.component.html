@@ -1,0 +1,48 @@
+<div class="carousel-inner ">
+
+      <svg class="bd-placeholder-img imge sli" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"></svg>
+    <div class="container">
+      <div class="carousel-caption text-left">
+        
+
+
+  <div class="auth">
+      <h1 class="display">Admin Login</h1>
+      <div *ngIf="show_alert" class="alert alert-success">Saved!</div>
+      <form [formGroup]="loginForm">
+          <h3 style="color : red ">{{message}}</h3>
+        <div class="form-group">
+          <input
+            class="form-control"
+            formControlName="email"
+            required
+            [(ngModel)]="email"
+            email="true"
+            placeholder="Email"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            class="form-control"
+            type="password"
+            placeholder="Passowrd"
+            minlength="6"
+            formControlName="password"
+            [(ngModel)]="password"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <button
+            class="btn btn-success"
+            (click)="save()"
+            [disabled]="!loginForm.valid"
+          >
+            Login
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+

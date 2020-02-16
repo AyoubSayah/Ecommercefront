@@ -1,0 +1,33 @@
+
+.auth{
+  width: 500px;
+  margin : auto;
+  margin-bottom: 180px;
+  text-align: center;
+}
+
+btn-success.disabled, .btn-success:disabled {
+  color: #fff;
+  background-color: #000000;}
+.imge{
+  background: url("./gg.jpg") no-repeat;
+ background-size: cover;
+}
+.form-control {
+  
+  background-color: #000;}
+  g-invalid:not(form) {
+    border-left: 5px solid #ff1612;}
+.sli{
+  height: 700px;
+}
+h1{
+  text-align: center;
+}
+
+.h1, h1 {
+  font-size: 5rem;
+  text-align: 50px;
+  text-align: center;
+  margin-bottom: 70px;
+}

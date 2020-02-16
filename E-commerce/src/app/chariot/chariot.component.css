@@ -1,0 +1,16 @@
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+    visibility: hidden;
+    width:1px
+    
+}
+.card-footer:last-child {
+    border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+    
+    margin-top: -150px;}
+    .h2, h2 {
+        font-size: 2rem;
+        align-items: center;
+        margin-left: 370px;
+    }

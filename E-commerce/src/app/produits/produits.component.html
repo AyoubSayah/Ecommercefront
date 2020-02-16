@@ -1,0 +1,52 @@
+<div class="container">
+    <br>
+    <div class="row">
+        <br>
+
+        <h2> {{ 'productlist' | translate }}</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+           {{ex}}
+        </div>
+        <div class="col-md-3">
+
+         
+        </div>
+        <div class="col-md-3">
+            
+        </div>
+        <div class="col-md-3" >
+            <button class="btn btn-primary" [routerLink]="['/admin/ajout']" >+ Add Product</button>
+        </div>
+
+   
+
+    </div>
+    <hr>
+   <div class ="row list l">
+    <div class="col-md-3 product f" *ngFor="let p of produits2 | async">
+      
+
+        <div class="row">
+        <img class="m" src="{{p.url2}}"width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+        </div>
+        <div class="row">
+        <h2>{{p.nom}}</h2><br>
+        </div>
+        
+        <div class="row">
+        <h6>Categroy :{{p.categorie}}  <br></h6>
+        <div>
+            
+      
+     <div class="row col-md-12 footer ">
+            <p><a class="btn btn-danger" href="#" role="button" width="20px" [routerLink]="['/admin/edit/'+ p.ref]">Edit &raquo;</a></p>
+        <span class="prix"><b>  {{p.prix}}Dt</b> &nbsp; </span>
+        
+        <button class="btn btn-warning">+</button>
+       
+      </div>
+
+</div>
+</div>

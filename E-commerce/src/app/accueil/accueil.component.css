@@ -1,0 +1,109 @@
+
+
+.center {
+    display: block;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+ .imge{
+     background: url("./fifa.jpg") no-repeat;
+    background-size: cover;
+ }
+ .backg{
+  background: url("./call1.png") no-repeat;
+ background-size: cover;
+
+}
+.back{
+  background: url("./ga1.png") no-repeat;
+ background-size: cover;}
+.im2{
+  background: url("./gg1.png") no-repeat;
+ background-size: cover;}
+ .im{
+  background: url("./battle.jpg") no-repeat;
+ background-size: cover;
+ padding-right: 50px;
+ background-position: center;
+position: center;
+}
+.im3{
+  background: url("./wit.png") no-repeat;
+ background-size: cover;
+ padding-right: 50px;
+ background-position: center;
+}
+.ime{
+  background: url("./ps4.jpg") no-repeat;
+ background-size: cover;
+ padding-left:60%;
+ 
+ background-position: right;
+position: center;
+}
+.homs{
+  padding-left: 10%;
+}
+.im4{
+  background: url("./duty.jpg") no-repeat;
+ background-size: cover;
+ 
+ 
+ background-position: center;
+
+}
+.bd-placeholder-img {
+        
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.sli{
+  height: 700px;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  
+  margin-right: 50px;
+  padding-left: 100px;
+}
+h2{
+  align-self: auto;
+  
+}
+.l{
+  align-items: auto;
+  display: flex;
+}
+.h3, h3 {
+    font-size: 1.75rem;
+    margin-left: -10px;
+margin-bottom: -5px;}
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  width: max-content;}
+.image{
+  background: url("./G4U.png") no-repeat;
+    background-size: cover;
+}
+.wri
+{ margin-left : -80px;
+margin-top :50px}

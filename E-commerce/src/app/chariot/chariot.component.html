@@ -1,0 +1,32 @@
+<hr>
+<div class="container">
+
+        <div class="card text-center"*ngFor="let c of chariot2 | async">
+                <div class="card-header">
+               
+                </div>
+                <div class="card-body">
+                        <div class="alert alert-primary" role="alert">
+                                
+                              
+                           <h5 class="card-title">Nom :{{c.nom}}</h5>
+                               </div>
+                 <div class="alert alert-primary" role="alert">
+                <h5 class="card-title"> Prix :{{c.prix}} DT</h5>
+                 </div>
+                  <a  class="btn btn-primary" >{{cal(c.prix)}} DT</a>
+                </div>
+                 
+                <div class="card-footer text-muted" >
+                      
+                       </div>
+              </div>
+              
+              <div class="alert alert-danger" role="alert" >
+                      <h2 align-item="center">Prix Total : {{solde}} </h2>
+              </div>
+              <hr>
+              <button class="btn btn-primary" (click)="change()">Confirmer</button>
+
+
+</div>

@@ -1,0 +1,18 @@
+
+ .imge{
+    background: url("./bg.jpg") no-repeat;
+   background-size: cover;
+}
+.sli{
+    height: 700px;
+  }
+  h1{
+    text-align: center;
+  }
+  
+.h1, h1 {
+    font-size: 5rem;
+    text-align: 50px;
+    text-align: center;
+    margin-bottom: 250px;
+-webkit-text-emphasis: triangle;}
